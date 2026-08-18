@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import StatsBanner from './components/StatsBanner';
 import CapabilitiesSection from './components/CapabilitiesSection';
+import SecurityAiSection from './components/SecurityAiSection';
 import AcceleratorsSection from './components/AcceleratorsSection';
 import IndustriesSection from './components/IndustriesSection';
 import CaseStudiesSection from './components/CaseStudiesSection';
@@ -43,6 +44,10 @@ export default function App() {
         <StatsBanner />
         
         <CapabilitiesSection 
+          openContactModal={() => setIsContactModalOpen(true)}
+        />
+
+        <SecurityAiSection 
           openContactModal={() => setIsContactModalOpen(true)}
         />
         

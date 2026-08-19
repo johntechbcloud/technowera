@@ -77,9 +77,10 @@ export default function HeroSection({ openRoiModal, openContactModal }) {
             <div className="relative rounded-2xl p-1 bg-gradient-to-tr from-cyan-500/40 via-blue-500/20 to-purple-500/40 shadow-2xl shadow-cyan-500/10">
               <div className="relative rounded-[15px] overflow-hidden bg-[#0f172a]/90 backdrop-blur-xl border border-white/10">
                 <img 
-                  src="/images/hero.jpg" 
+                  src="images/hero.jpg" 
                   alt="Technowera Enterprise AI Network" 
-                  className="w-full h-80 sm:h-96 object-cover opacity-85 hover:scale-105 transition-transform duration-700"
+                  onError={(e) => { e.currentTarget.src = 'public/images/hero.jpg'; }}
+                  className="w-full h-80 sm:h-96 object-cover opacity-90 hover:scale-105 transition-transform duration-700"
                 />
 
                 {/* Floating Glassmorphism Stat Cards */}

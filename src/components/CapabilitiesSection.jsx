@@ -117,8 +117,9 @@ export default function CapabilitiesSection({ openContactModal }) {
             <div className="lg:col-span-5">
               <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-2xl">
                 <img 
-                  src="/images/solutions.jpg" 
+                  src="images/solutions.jpg" 
                   alt={activeService.title}
+                  onError={(e) => { e.currentTarget.src = 'public/images/solutions.jpg'; }}
                   className="w-full h-72 sm:h-80 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#090d16] via-transparent to-transparent"></div>

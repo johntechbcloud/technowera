@@ -256,7 +256,7 @@ export const CASE_STUDIES = [
     client: "Global Technology & Consulting Firm",
     title: "Streamlining IT & SecOps with Beak AIOps Platform",
     industry: "Security.AI & Cloud Operations",
-    image: "/images/security-ai.jpg",
+    image: "images/security-ai.jpg",
     metrics: [
       { label: "Vulnerabilities Remediated", value: "2.1M" },
       { label: "Hours Saved / Year", value: "1,000+" },
@@ -270,7 +270,7 @@ export const CASE_STUDIES = [
     client: "Global Fortune 100 Healthcare Network",
     title: "Scaling Autonomous GenAI Triage & Zero-Trust Clinical Documentation for 15,000+ Physicians",
     industry: "Healthcare & AI Security",
-    image: "/images/solutions.jpg",
+    image: "images/solutions.jpg",
     metrics: [
       { label: "Hours Saved / Doctor / Day", value: "2.4 Hrs" },
       { label: "Triage Accuracy", value: "99.2%" },
@@ -284,7 +284,7 @@ export const CASE_STUDIES = [
     client: "Top Tier Multinational Bank",
     title: "Migrating Legacy Data Warehouse to Unified Microsoft Fabric & Databricks Architecture",
     industry: "Financial Services",
-    image: "/images/hero.jpg",
+    image: "images/hero.jpg",
     metrics: [
       { label: "Analytics Query Speedup", value: "4.5x" },
       { label: "Annual Cloud Cost Cut", value: "38%" },

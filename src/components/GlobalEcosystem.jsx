@@ -61,8 +61,9 @@ export default function GlobalEcosystem() {
               
               <div className="relative rounded-xl overflow-hidden border border-white/10 h-52">
                 <img 
-                  src="/images/global.jpg" 
+                  src="images/global.jpg" 
                   alt="Technowera Global Delivery Hub"
+                  onError={(e) => { e.currentTarget.src = 'public/images/global.jpg'; }}
                   className="w-full h-full object-cover opacity-80" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#090d16] via-transparent to-transparent"></div>

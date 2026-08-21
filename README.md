@@ -1,11 +1,14 @@
 # Technowera - Autonomous Intelligence & Enterprise Digital Transformation
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Live_Demo-success?logo=github&logoColor=white)](https://johntechbcloud.github.io/technowera/)
 [![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.1-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
 
 **Technowera** is an enterprise-grade digital transformation platform showcasing Agentic AI, Autonomous Multi-Agent Automation, Modern Data Fabrics (Microsoft Fabric / Azure Databricks / Snowflake), Multi-Cloud FinOps, and pre-built Solution Accelerators.
+
+🌐 **Live URL**: [https://johntechbcloud.github.io/technowera/](https://johntechbcloud.github.io/technowera/)
 
 ---
 
